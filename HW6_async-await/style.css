@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: bisque;
+}
+.button {
+  position: absolute;
+  top: 40vh;
+  left: 40vw;
+  height: 100px;
+  width: 200px;
+
+  border-radius: 10%;
+  border: 5px solid rgb(146, 141, 141);
+}
+.button:hover {
+  cursor: pointer;
+  background-color: beige;
+}
+.ip__content {
+  position: absolute;
+  top: 60vh;
+  left: 40vw;
+  color: rgb(58, 75, 75);
+}
